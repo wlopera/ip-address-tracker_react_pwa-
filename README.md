@@ -8,4 +8,4 @@
 ![Captura2](https://user-images.githubusercontent.com/7141537/187097704-ef0bb4e2-91da-4fca-8934-f1a2f19ed8dd.PNG)
 
 ## Salida
-![Captura](https://user-images.githubusercontent.com/7141537/187097705-fae39dab-4db3-4ee9-b150-529a0b1b1ee3.PNG)
+
