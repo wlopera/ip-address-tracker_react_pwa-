@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+:root {
+    --fs-title: 28px;
+    --fs-text-action: 20px;
+    --fs-field-title: 10px;
+    --fs-field-value: 20px;
+    --fs-error: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-title {
+    position: absolute;
+    width: 425px;
+    top: 3%;
+    left: 33%;
+    color: white;
+    margin: 1rem;
+    font-size: var(--fs-title);
+}
+
+.leaflet-bar {
+    width: 2.2rem;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* CardAction */
+.card-action {
+    width: 30%;
+    top: 18%;
+    left: 48%;
+}
+
+.font-text-action {
+    padding-left: 10px;
+    font-size: var(--fs-text-action);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: left;
+}
+
+.button-action {
+    background: black;
+    height: 50px;
+    width: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.img-arrow-action {
+    height: 35%;
+    width: 35%;
+}
+
+/* CardResult*/
+.card-result {
+    width: 80%;
+    top: 37%;
+    padding: 35px;
+    left: 50%;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.vertical-line {
+    border-right: 2px solid lightgray;
+}
+
+/* LabelField*/
+.lbl-field-main {
+    background-color: white;
+}
+
+.lbl-field-title {
+    font-size: var(--fs-field-title);
+    font-weight: 700;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.lbl-field-value {
+    font-size: var(--fs-field-value);
+    font-weight: bold;
+}
+
+/** CardError */
+.card-error {
+    width: 80%;
+    top: 37%;
+    padding: 40px;
+    left: 50%;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.label-error {
+    color: red;
+    font-size: var(--fs-error)
+}
+
+@media (max-width: 420px) {
+    .container {
+        display: grid;
+        text-align: center;
+        width: 100%;
+        background-color: red;
+    }
+
+    .main-title {
+        position: absolute;
+        width: 425px;
+        top: 2%;
+        left: 0%;
+        color: white;
+        margin: 1rem;
+        font-size: 18px;
+    }
+
+    /* CardAction */
+    .card-action {
+        width: 80%;
+        top: 15%;
+        left: 50%;
+    }
+
+    .font-text-action {
+        padding-left: 10px;
+        font-size: 16px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        text-align: left;
+    }
+
+    .button-action {
+        background: black;
+        height: 40px;
+        width: 40px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        cursor: pointer;
+    }
+
+    /* CardResult*/
+    .card-result {
+        display: grid;
+        width: 80%;
+        top: 44%;
+        padding: 25px;
+        left: 50%;
+        border: 1px solid black;
+        z-index: 2;
+    }
+
+    .vertical-line {
+        border-right: none;
+    }
+
+}
