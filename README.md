@@ -10,3 +10,8 @@
 ## Salida
 ![Captura](https://user-images.githubusercontent.com/7141537/187097882-7a871352-6ff5-4b46-81bf-1b66993564f5.PNG)
 
+## Ajuste y manejo de estilos - WEB
+![Captura](https://user-images.githubusercontent.com/7141537/187318160-31fe7a69-d0e8-4e9d-864e-5ce71532dd89.PNG)
+
+## Ajuste y manejo de estilos - Pagina de 420 - Mobile
+![Captura1](https://user-images.githubusercontent.com/7141537/187318161-35363714-51f4-47e2-8ee0-3c08b7aa1e10.PNG)
