@@ -15,3 +15,7 @@
 
 ## Ajuste y manejo de estilos - Pagina de 420 - Mobile
 ![Captura1](https://user-images.githubusercontent.com/7141537/187318161-35363714-51f4-47e2-8ee0-3c08b7aa1e10.PNG)
+
+## Mensaje de error al usuario
+![Captura](https://user-images.githubusercontent.com/7141537/187318914-4443352b-0c09-4a52-8667-24465520ba03.PNG)
+
